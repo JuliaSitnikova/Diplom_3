@@ -12,6 +12,6 @@ class OrderLocators:
                                          "'text_type_digits')]")
  ORDER_LOCATOR_A = "//p[contains(text(), '"
  ORDER_LOCATOR_B = "')]"
- ORDER_LOCATOR_C = "///li[text()='"
+ ORDER_LOCATOR_C = "///li[text()='{}']"
  ORDER_LOCATOR_D = "']"
  ORDER_FEED = (By.XPATH, "//ul[contains(@class, 'OrderFeed_orderListReady_')]")

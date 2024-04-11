@@ -36,7 +36,7 @@ class ListOrdersPage(BasePage):
         or_b = OrderLocators.ORDER_LOCATOR_B
         locator = (By.XPATH, f"{or_a}{order_id}{or_b}")
         print(order_id)
-        return self.check_element_exists_with_wait(locator)
+        return self.find_element_located(locator)
 
     @allure.step('Клик на Конструктор')
     def click_constructor(self):
