@@ -1,0 +1,3 @@
+
+<selenium.webdriver.remote.webelement.WebElement (session="5c4d4ee1f5ba70c19917e30019fa2bcb", element="f.7389A843BBB0CD91690F0DCA76C074AE.d.FC17A536DA89BB5B28A0D87B2A4A47EA.e.81")>
+Все текущие заказы готовы!
