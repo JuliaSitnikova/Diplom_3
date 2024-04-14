@@ -35,7 +35,6 @@ class ListOrdersPage(BasePage):
         or_a = OrderLocators.ORDER_LOCATOR_A
         or_b = OrderLocators.ORDER_LOCATOR_B
         locator = (By.XPATH, f"{or_a}{order_id}{or_b}")
-        print(order_id)
         return self.find_element_located(locator)
 
     @allure.step('Клик на Конструктор')
@@ -55,8 +54,4 @@ class ListOrdersPage(BasePage):
         or_c = OrderLocators.ORDER_LOCATOR_C
         or_d = OrderLocators.ORDER_LOCATOR_D
         locator = (By.XPATH, f"{or_c}{order_id}{or_d}")
-        print(order_id)
-        elem = self.find_element_located(OrderLocators.ORDER_FEED)
-        print(elem)
-        print(elem.text)
         return self.check_pop_open(locator)

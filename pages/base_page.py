@@ -68,6 +68,3 @@ class BasePage:
             return False
         return True
 
-    #@allure.step('Проверка видимости всплывающего окна (с ожиданием появляения элемента)')
-    #def check_element_exists_with_wait(self, locator, time=10):
-        r#eturn self.find_element_located(locator, time)
